@@ -20,6 +20,8 @@ aim = vector(0, -10)
 color=['black', 'blue', 'orange', 'purple']
 c1=random.choice(color)
 c2=random.choice(color)
+while(c2==c1):
+    c2=random.choice(color)
 
 def change(x, y):
     """Change snake direction."""
