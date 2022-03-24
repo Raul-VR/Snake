@@ -26,7 +26,6 @@ def change(x, y):
     aim.x = x
     aim.y = y
 
-
 def inside(head):
     """Return True if head inside boundaries."""
     return -200 < head.x < 190 and -200 < head.y < 190
@@ -60,7 +59,7 @@ def move():
     update()
     ontimer(move, 100)
 
-#RAVR - 23/03/2022 - The food is moving one tile in a preselected time where it is created
+#RAVR - 23/03/2022 - The food is moving one tile where it is created in a preselected time
 def movefood():
 
     if inside(food):
@@ -68,8 +67,6 @@ def movefood():
         food.y += (randrange(-1, 2) * 10)
         
     ontimer(movefood, 500)
-
-    
 
 setup(420, 420, 370, 0)
 hideturtle()
