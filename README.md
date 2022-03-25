@@ -1,6 +1,6 @@
 <img src="http://elacontecer.com.mx/wp-content/uploads/2019/10/TecMonterrey_Horizontal_RGB.jpg" alt="HTML5" style="width:400px;height:100px">
 
-# Herramientas computacionales: el arte de la programación - Actividad 2S
+# Herramientas computacionales: el arte de la programación - Actividad 2
 
 <ul>
   <li><a href="https://github.com/roeliars/Paint" target="_blank">Actividad 1 - Juego Pintando</a></li>
